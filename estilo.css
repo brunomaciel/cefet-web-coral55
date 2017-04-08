@@ -9,11 +9,17 @@
   margin: 0px auto;
   background-image: linear-gradient(#f6f1b2,#4599b2);
   border: 1px solid #d3d3d3;
+  position: relative;
+}
+
+html {
+  height: 102%;
 }
 
 body {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
+  position: relative;
+  height: 100%;
 }
 
 #cabecalho h1 {
@@ -21,6 +27,8 @@ body {
   font-family: "Ravie";
   font-size: 36px;
   color: #e90c0c;
+  margin-left: 165px;
+  padding-top: 15px;
 }
 
 #cabecalho h2 {
@@ -28,6 +36,9 @@ body {
   font-size: 24px;
   color: #333;
   font-weight: normal;
+  margin-top: 2px;
+  margin-bottom: 7px;
+  padding-left: 300px;
 }
 
 #acai {
@@ -45,22 +56,84 @@ body {
   font-size: 14px;
   font-family: "Verdana";
   color: #333;
+  width: 646px;
 }
 
 #cardapio {
+  position: relative;
   width: 646px;
   box-sizing: border-box;
   background-color: rgba(255,255,255,0.2);
   border: 1px solid #aac0ae;
   margin-left: 154px;
+  position: relative;
+  line-height: 2em;
+  padding-left: 20px;
+  padding-bottom: 40px;
 }
 
 #ticket {
   position: fixed;
   top: 295px;
-  left: 0px;
+  left: -89px;
+}
+
+#ticket:hover{
+	left: 0px;
+}
+
+#ticket{
+  position: absolute;
+  top: 295px;
+  left: -69px;
 }
 
 #lateral {
-  float: left;
+  position: absolute;
+  width: 154px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
 }
+
+#siri{
+  position: absolute;
+  left: -10px;
+  top: 17px;
+  height: 0.8;
+}
+
+#bolhas{
+  position: absolute;
+  right: 20px;
+  bottom: 109px;
+}
+
+#peixe{
+  position: absolute;
+  left: -44px;
+  bottom: 0px;
+  height: 95px;
+}
+
+#lateral h2{
+  transform: rotate(-90deg);
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 260px;
+}
+
+#rodape img{
+	position: absolute;
+	bottom: 25px;
+	right: 15px;
+}
+
+#rodape{
+	position: relative;
+	height: 96px;
+	width: 100%;
+	bottom: 0px;
+}
+
